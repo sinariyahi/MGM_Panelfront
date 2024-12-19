@@ -1,0 +1,651 @@
+/* User edit ---------------------------------------------*/
+@media (max-width: 800px) {
+    .account h4 {
+      font-size: 1.2rem;
+    }
+    .loc {
+      gap: 8px;
+    }
+    .loc a,
+    .loc p {
+      font-size: 0.8rem;
+    }
+    .pages-wrapper {
+      padding: 0.5rem;
+    }
+    .general-page {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .avatar-box {
+      width: 100%;
+    }
+    .btn-name p:nth-child(1) {
+      font-size: 0.8rem;
+    }
+    .btn-name p:nth-child(2) {
+      font-size: 0.7rem;
+    }
+    .info-box {
+      width: 100%;
+      padding: 0.5rem 0px;
+    }
+    
+    .info-wrapper {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .stock-label .info-wrapper{
+      flex-direction: row;
+    }
+    .info-input {
+      width: 100%;
+    }
+    .save-btn {
+      align-self: center;
+      margin-bottom: 1rem;
+    }
+  }
+  /* End User edit -----------------------------------------*/
+  /* Team Users ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .team-users {
+      padding: 0.5rem;
+    }
+    .team-header h4 {
+      font-size: 1rem;
+    }
+    .team-search {
+      width: 250px;
+    }
+    .team-wrapper {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .user-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .user-btn i:nth-child(2) {
+      border: none;
+    }
+    .user-state td:nth-child(1) {
+      font-size: 11px;
+    }
+    .user-state td:nth-child(3) {
+      font-size: 10px;
+    }
+    .user-id p:nth-child(1) {
+      font-size: 1rem;
+    }
+    .user-id p:nth-child(2) {
+      color: #757575;
+      font-size: 0.9rem;
+    }
+    .create-team-user {
+      width: 90%;
+      padding: 1rem 1rem;
+      left: 0;
+      right: 0;
+      top: 5px;
+      margin-inline: auto;
+      height: 100vh;
+    }
+    .create-team-user h4 {
+      font-size: 1rem;
+      padding-bottom: 8px;
+    }
+    .unchecked-header {
+      display: flex;
+      padding-inline: 0.3rem;
+      padding-bottom: 0.3rem;
+      font-size: 0.8rem;
+    }
+    .checked-header {
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      padding-inline: 0.3rem;
+      padding-bottom: 0.3rem;
+    }
+    .checked-header p {
+      font-size: 0.8rem;
+    }
+    .gp-wrapper {
+      padding-block: 0.3rem;
+      gap: 4px;
+    }
+    .gp-header p {
+      color: #555;
+      font-size: 0.8rem;
+      padding-left: 0.6rem;
+    }
+    .gp-member i {
+      display: flex;
+    }
+    .default-line p {
+      font-size: 1rem;
+    }
+  }
+  /* End Team Users -----------------------------------------*/
+  /* Profiles ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .profiles {
+      padding: 0.8rem;
+    }
+    .profiles-header {
+      padding-block: 0.5rem;
+    }
+    .profiles-header h5 {
+      font-size: 1rem;
+    }
+    .add-profile-btn p {
+      font-size: 0.8rem;
+    }
+    .profile-table {
+      padding: 0.5rem;
+    }
+    .profile-table th {
+      font-size: 10px;
+    }
+    .profile-table td:nth-child(2),
+    .profile-table th:nth-child(2) {
+      width: 25%;
+    }
+    .profile-table td:nth-child(3),
+    .profile-table th:nth-child(3),
+    .profile-table td:nth-child(4),
+    .profile-table th:nth-child(4) {
+      width: 25%;
+    }
+    .profile-table td {
+      font-size: 0.7rem;
+    }
+  
+    .profiles-icons {
+      display: flex;
+    }
+  
+    .p-wrapper p:nth-child(2) {
+      display: none;
+    }
+    .p-wrapper p:nth-child(1) {
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+    .profiles-title {
+      width: 100%;
+      gap: 6px;
+      padding-block: 0.8rem;
+    }
+    .create-profile {
+      right: 0;
+      left: 0;
+      top: 15px;
+      margin-inline: auto;
+      width: 98%;
+      padding: 1rem;
+      height: auto;
+    }
+    .create-profile h4 {
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding-bottom: 5px;
+    }
+    .dec-input label {
+      padding-bottom: 41px;
+    }
+    .checkbox label {
+      margin: 0;
+      font-size: 0.8rem;
+    }
+    .checkbox {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+    .checkbox-input {
+      margin-bottom: 15px;
+    }
+    .c-and-p-btn p {
+      font-size: 0.8rem;
+      padding-block: 3px;
+    }
+  }
+  /* End Profiles -----------------------------------------*/
+  /* Profile Setting ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .profile-setting {
+      padding: 1rem;
+    }
+    .ps-header {
+      padding-left: 45px;
+    }
+    .ps-back-btn {
+      position: absolute;
+      left: 0px;
+    }
+    .p-wrapper span {
+      font-style: italic;
+      color: #e74c3c;
+      font-size: 10px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .p-wrapper p:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+    .p-wrapper p:nth-child(2) {
+      display: none;
+    }
+    .asso-btn p {
+      font-size: 0.7rem;
+    }
+    .help-btn {
+      padding: 3px 10px;
+    }
+    .section-member {
+      padding-right: 0;
+    }
+    .ps-btn-wrapper .save-btn {
+      margin: 0;
+    }
+  }
+  /* End Profile Setting -----------------------------------------*/
+  /* Product Create ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .create-product h4 {
+      font-size: 1.2rem;
+    }
+    .create-product {
+      padding: 0.5rem;
+    }
+    .pages-wrapper {
+      padding-block: 0.5rem;
+      gap: 8px;
+    }
+    .pd-row {
+      display: flex;
+      flex-direction: column;
+    }
+    .row-title {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .row-title h4 {
+      font-size: 0.9rem;
+    }
+    .row-title p {
+      font-size: 0.7rem;
+    }
+    .row-box {
+      width: 100%;
+      margin-right: 0;
+      padding: 0.5rem;
+    }
+    .create-btn-wrapper {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    .create-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      vertical-align: unset;
+      min-width: unset;
+      padding: 6px 8px;
+      height: unset;
+      font-size: 0.7rem;
+      text-align: center;
+    }
+  }
+  /* End Product Create -----------------------------------------*/
+  /* Account ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .navigation-bar {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 20px;
+    }
+    .nav-btn {
+      gap: 8px;
+      min-width: 25px;
+      min-height: 25px;
+      max-width: 200px;
+    }
+    .pages-wrapper {
+      padding: 0;
+      width: 100%;
+    }
+    .bill-page {
+      flex-direction: column;
+    }
+    .plan-col-1 {
+      width: 100%;
+      padding-inline: 0.5rem;
+    }
+    .plan-col-2 {
+      width: 100%;
+    }
+    .plan-box {
+      width: 100%;
+      padding: 1rem;
+    }
+    .plan-box h5 {
+      margin-bottom: 15px;
+    }
+    .plan-shapes-wrapper {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .plan-shapes {
+      width: calc(100% / 3);
+      padding: 10px;
+    }
+    .plan-shapes p:nth-child(1) {
+      font-weight: 600;
+    }
+    .plan-shapes p:nth-child(2) {
+      font-size: 1rem;
+    }
+    .plan-info {
+      width: 100%;
+      gap: 10px;
+    }
+    .plan-btn-container {
+      width: 100%;
+      padding: 0.5rem;
+    }
+    .pay-box {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 1rem;
+    }
+    .pay-title h5 {
+      margin: 0;
+    }
+    .pay-title {
+      margin-bottom: 10px;
+    }
+    .pay-card-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: unset;
+      grid-row-gap: 8px;
+    }
+    .address-title h5 {
+      margin: 0;
+    }
+    .address-title {
+      margin-bottom: 10px;
+    }
+    .plan-col-2 {
+      padding: 8px;
+    }
+    .invoice-box {
+      width: 100%;
+    }
+    .notif-page {
+      padding: 1rem;
+    }
+    .notif-col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .notif-title {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    .notif-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 0.5rem;
+      border-radius: 8px;
+      gap: 30px;
+    }
+  }
+  /* End Account -----------------------------------------*/
+  /*Order Detail ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .order-detail {
+      padding: 0.5rem;
+    }
+    .od-header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .od-header-info {
+      margin-bottom: 10px;
+    }
+  
+    .od-header-name p:nth-child(1) {
+      font-size: 1.2rem;
+    }
+    .od-header-btn {
+      align-self: center;
+      gap: 10px;
+      margin-right: 20px;
+    }
+    .od-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      gap: 15px;
+    }
+    .od-col-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+    }
+    .details-info {
+      padding-bottom: 10px;
+      min-width: unset;
+    }
+    .details-price {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 130px;
+      padding-top: 10px;
+    }
+  
+    .order-time {
+      display: flex;
+      margin-right: 0;
+    }
+    .od-col-2 {
+      width: 100%;
+    }
+    .od-col-2 .info-box {
+      padding: 0.5rem;
+    }
+  }
+  /* EndOrder Detail -----------------------------------------*/
+  /* Reports ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .reports {
+      padding: 0.5rem;
+    }
+    .report-header {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .search-input {
+      width: 100%;
+      min-width: unset;
+      padding: 0.3rem;
+    }
+    .report-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .report-box {
+      width: calc((100% / 2.05));
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      height: fit-content;
+    }
+    .box-header h6 {
+      font-size: 0.8rem;
+    }
+    .fav-report-wrapper {
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      padding: 0.5rem;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+  
+    .fav-title p {
+      font-size: 1rem;
+    }
+    .fav-reports {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .fav-reports i {
+      display: block;
+    }
+    .fav-reports .report {
+      border: none;
+      min-width: 45%;
+    }
+  }
+  /* End Reports -----------------------------------------*/
+  /* Reports ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .new-item {
+      gap: 10px;
+      padding: 0.5rem;
+    }
+    .item-box {
+      padding: 0.5rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    .item-col {
+      width: 100%;
+    }
+    .save-wrapper .save-btn {
+      margin: 0;
+    }
+  }
+  /* End Reports -----------------------------------------*/
+  /* Setting ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .main-setting {
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin-inline: auto;
+      top: 0;
+      background-color: white;
+      height: 85vh;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 6px 20px 2px;
+      width: 95%;
+      z-index: 2;
+      border-radius: 10px;
+      overflow-y: scroll;
+    }
+  }
+  /* End Setting -----------------------------------------*/
+  /* Setting ---------------------------------------------*/
+  @media (max-width: 800px) {
+    .order {
+      padding: 0.5rem;
+    }
+    .order-statue {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .order-filter {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+      padding-inline: 20px;
+      padding-block: 10px;
+      border-bottom: 2px solid #f6f7f9;
+      gap: 20px;
+    }
+    .date-input {
+      width: 45%;
+    }
+    .serach-input {
+      width: 80%;
+    }
+    .order-list th {
+      display: table-cell;
+      text-align: left;
+      padding: 0px 0px 0px 8px;
+      font-size: 10px;
+      color: rgb(99, 115, 129);
+      font-weight: 600;
+      background-color: rgb(244, 246, 248);
+      width: 20px;
+    }
+    .order-list th:nth-child(1){
+      display: none;
+    }
+    .order-list th:nth-child(2),
+    .order-list th:nth-child(3),
+    .order-list th:nth-child(4),
+    .order-list th:nth-child(5),
+    .order-list th:nth-child(6),
+    .order-list th:nth-child(7) {
+      text-align: left;
+      padding: 5px;
+      background-color: rgb(244, 246, 248);
+      width: 50px;
+    }
+    .order-list th:nth-child(3) {
+      width: unset;
+    }
+    .order-list th:nth-child(4),
+    .order-list th:nth-child(6) {
+      width: 40px;
+    }
+    .order-list th:nth-child(5) {
+      width: 20px;
+      text-align: center;
+    }
+    .order-list th:nth-child(5) {
+      width: 20px;
+    }
+  }
+  
+  /* End Setting -----------------------------------------*/
+  
